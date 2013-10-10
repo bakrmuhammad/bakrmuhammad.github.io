@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--designs-->
+<html>
+    <head>
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'>
+        <title>Bakr Saliq Muhammad</title>
+        <link rel="stylesheet" href="css/base.css" />
+    </head>
+    <body>
+        <header>
+            <h1>
+                <a href="index.html">BAKR SALIQ MUHAMMAD</a>
+            </h1>
+                <nav>
+                    <a href="resume.html">Resume</a>
+                    <a href="photography.html">Photography</a>
+                    <a href="design.html">Design</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="articles.html">Articles</a>
+                </nav>
+        </header>
+        </body>
+    <article>real nigga shit</article>
+<footer>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="resume.html">Resume</a>
+        <a href="portfolio.html">Portfolio</a>
+        <p> &copy; by Bakr Muhamamd 2013 - Contact: <a href="mailto:bkrmhmmad@yahoo.com"> 
+bkrmhmmad@yahoo.com</a></p>
+    </footer>
+</html>
+    

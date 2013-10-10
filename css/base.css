@@ -1,0 +1,77 @@
+/*CSS file for all your CSS needs!*/
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+ header {
+    background-color: #EAFCFF;
+    color: #5F787D;
+    text-align: center;
+    padding-top: 20px;
+    }
+
+header h1{
+    font-family: helvetica;
+    font-weight: 100;
+    font-size: 60px;
+}
+
+header nav {
+    font-family: helvetica;
+    font-weight:200;
+    font-size:30px;
+    word-spacing: 25px;
+    background-position:center;
+    background-color: #6AD3E8;
+    padding: 0px;
+    margin: 0px;
+}
+
+header a {
+    text-decoration: none;
+    color: #5F787D;
+}
+
+header nav a:hover{
+    color: #ffffff;
+}
+
+header a:active {
+    color: #000;
+}
+
+article {
+   padding-left:200px;
+    padding-right:200px;
+    padding-top: 30px;
+}
+footer {
+    font-family:'Roboto Slab', serif;
+    text-align:center;
+    background-color: #6AD3E8;
+}
+    
+article {
+    font-family: 'Roboto Slab', serif;
+    line-height: 20px;
+}
+article p{
+    padding-bottom:20px;
+}
+    
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight:400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight:100;
+}
+
+
