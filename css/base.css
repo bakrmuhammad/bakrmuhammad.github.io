@@ -35,16 +35,8 @@ header a {
     color: #5F787D;
 }
 
-header a: active{
-    color: #000000;
-}
-
 header nav a:hover{
     color: #ffffff;
-}
-
-header a:active {
-    color: #000;
 }
 
 article {
