@@ -6,12 +6,12 @@
     padding:0;
 }
 
- header {
+header {
     background-color: #EAFCFF;
     color: #5F787D;
     text-align: center;
     padding: 20px 0px 0px 0px; /*TRouBLe*/
-    }
+}
 
 header h1{
     font-family: helvetica, sans-serif;
@@ -48,13 +48,15 @@ header a:active {
 }
 
 article {
-    padding:30px 300px 30px 300px; /*TRouBLe*/
+    padding:30px 100px 30px 100px; /*TRouBLe*/
 }
 
 footer {
     font-family:'Roboto Slab', monospace, serif;
     text-align:center;
     background-color: #6AD3E8;
+    padding: 5px 0px 10px 0px;
+    line-height: 30px;
 }
 
 footer nav{
@@ -70,36 +72,44 @@ footer a:hover{
     color: #ffffff
 }
 
-
 article {
     font-family: 'Roboto Slab', monospace, serif;
     line-height: 20px;
+    font-weight:100;
+    padding: 10px 300px 10px 300px;
 }
 
 article p{
     padding:0px 0px 20px 0px; /*TRouBLe*/
+    font-weight:400;
 }
 
 article ul{
     padding: 0px 0px 20px 30px;
 }
     
-h1 {
-    font-family: 'Roboto Slab', serif;
-    font-weight:400;
+article h1 {
     padding: 10px 0px 10px 0px; /*TRouBLe*/
+    font-weight:100;
+    font-size: 30px;
 }
+
 h2 {
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
     font-weight:100;
-    padding: 10px 0 0 0;
+    line-height: 40px;     
 }
 
 h3{
-    font-weight:100;
+    font-weight:300;
+    padding: 0px 0px 10px 0px;
 }
 
 img {
    margin: 20px 90px 20px 90px;
+}
+
+ul{
+    font-weight:400;
 }
