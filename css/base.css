@@ -35,33 +35,12 @@ header a {
     color: #5F787D;
 }
 
+header a:hover {
+    color: #000000;
+}
+
 header nav a:hover{
     color: #ffffff;
-}
-
-article {
-    padding:30px 100px 30px 100px; /*TRouBLe*/
-}
-
-footer {
-    font-family:'Roboto Slab', monospace, serif;
-    text-align:center;
-    background-color: #6AD3E8;
-    padding: 5px 0px 10px 0px;
-    line-height: 30px;
-}
-
-footer nav{
-    word-spacing: 18px;
-}
-
-footer a{
-    text-decoration:none;
-    color: #5F787D;
-}
-
-footer a:hover{
-    color: #ffffff
 }
 
 article {
@@ -86,14 +65,14 @@ article h1 {
     font-size: 30px;
 }
 
-h2 {
+aricle h2 {
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
     font-weight:100;
     line-height: 40px;     
 }
 
-h3{
+article h3{
     font-weight:300;
     padding: 0px 0px 10px 0px;
 }
@@ -104,4 +83,25 @@ img {
 
 ul{
     font-weight:400;
+}
+
+footer {
+    font-family:'Roboto Slab', monospace, serif;
+    text-align:center;
+    background-color: #6AD3E8;
+    padding: 5px 0px 10px 0px;
+    line-height: 30px;
+}
+
+footer nav{
+    word-spacing: 18px;
+}
+
+footer a{
+    text-decoration:none;
+    color: #5F787D;
+}
+
+footer a:hover{
+    color: #ffffff
 }
