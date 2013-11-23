@@ -53,7 +53,6 @@ footer {
     text-align:center;
     background-color: #6AD3E8;
     padding: 5px 0px 10px 0px;
-    
     line-height: 30px;
 }
 
@@ -67,11 +66,11 @@ footer a{
 }
 
 footer a:hover{
-    color: #ffffff
+    color: #ffffff;
 }
 
 article {
-    padding:30px 100px 30px 100px; /*TRouBLe*/
+    padding:10px 0% 10px 0%; /*TRouBLe*/
     font-family: 'Roboto Slab', monospace, serif;
     line-height: 20px;
     text-align:center;
@@ -86,28 +85,61 @@ article ul{
     padding: 0px 0px 20px 30px;
 }
     
-article h1{
+article h1 {
+    font-family: 'Roboto Slab', serif;
     font-weight:100;
     font-size: 30px;
-    text-align:left;
-    padding: 0px 200px 20px 200px;
+    line-height:43px;
+    padding: 0px 20% 0px 20%;
+    text-align: left;
 }
 
-h2 {
+article h2 {
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
     font-weight:100;
-    padding: 0px 200px 20px 200px;
+    padding: 0px 20% 0px 20%;
     text-align:left;
 }
 
-h3{
+article h3{
     font-weight:100;
+    padding: 0px 20% 0px 20%;
     text-align:left;
-    padding: 0px 200px 20px 200px;
 }
 
 img{
-    margin: 20px 10px 20px 0;
+    margin: 1% 0px 1% 0;
 }
 
+@media screen and (max-width: 1000px) {
+    
+
+    article {
+        padding: 2%;
+        background-color: #fff;
+        text-align: center; 
+    }
+    
+    article h1 {
+        text-align:left;
+        padding-left: 45px;
+}
+    
+    header {
+        padding: 10px 0px 0px 0px;
+    }
+    
+    header h1{
+        font-size: 40px;
+    }
+
+    header nav {
+        font-size: 20px;
+        word-spacing: 5px;
+        margin-top: 10px;
+    }
+    
+    img {
+        width: 40%;
+    }
