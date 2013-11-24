@@ -49,7 +49,8 @@ header nav a{
 }
 
 /*body{
-    background-color:#6AD3E8;*/
+    background-color:#6AD3E8;
+}*/
 
         
 article {
@@ -107,7 +108,6 @@ footer {
     padding: 5px 0px 10px 0px;
     line-height: 30px;
     bottom: 0px;
-    clear:both;
 }
 
 footer nav{
