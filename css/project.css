@@ -43,11 +43,12 @@ article {
     background-color: #fff;
 }
 
-article h1, h2, h3{
+article h1, h2, h3, h4, h5{
     font-family: Sintony, sans-serif;
     padding: 2% 0 2% 0;
     font-size: 25px; 
 }
+
 
 article p {
     font-family: Roboto Slab, serif;
@@ -55,6 +56,20 @@ article p {
     padding-top: 5px;
 }
 
+
+img {
+    width: 300px;
+    margin: 2%;
+}
+
+figure {
+    font-family: Roboto Slab, serif;
+    font-size: 12px;
+}
+
+caption {
+    caption-side:top;
+}
 
 footer{
     padding: 15px 5% 2% 5%;
@@ -72,4 +87,8 @@ footer{
 
     header nav{
     padding-top: 0px;
+}   
+    img {
+    width: 80%;
+}
 }
