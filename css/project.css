@@ -6,7 +6,14 @@
 }
 
 body{
-    background-color: #1974FF;
+    background-color: #A6FFFA;
+}
+
+#wrapper{
+    width: 945px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 10px #fff;
 }
 
 header{
@@ -34,12 +41,12 @@ header nav{
     padding-top: 5px;
 }
 
-header nav a: hover{
-    color: #000000;
+header nav a:hover{
+    color: #000;
 }
 
 article {
-    padding: 10px 5% 2% 5%;
+    padding: 10px 5% 5% 5%;
     background-color: #fff;
 }
 
@@ -58,8 +65,8 @@ article p {
 
 
 img {
-    width: 300px;
-    margin: 2%;
+    width: 70%;
+    
 }
 
 figure {
@@ -72,13 +79,41 @@ caption {
 }
 
 footer{
-    padding: 15px 5% 2% 5%;
+    padding: 5px 5% 2% 5%;
     text-align:left;
-    font-family: Sintony;
-    line-height: 30px;
+    font-family: Sintony, sans-serif;
+    line-height: 25px;
+    background-color:#1974FF;
 }
 
-@media screen and (max-width: 700px) {
+footer  a{
+    color: #fff;
+    text-decoration:none;
+}
+
+footer a:hover{
+    color: #000;
+    text-decoration:underline;
+}
+
+.right{
+    float: right;
+    padding: 0 0 0 10px;
+}
+
+
+.left {
+    float: left;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+
+    #wrapper{
+        width: 100%;
+        border:none;
+    }
 
     header{ 
     padding: 15px 5% 2% 5%%;
