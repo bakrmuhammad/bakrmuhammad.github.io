@@ -21,6 +21,9 @@ header{
     background-color: #6C88B2;
     text-align:center;
 }
+header img{
+    float:left;
+}
 
 header h1{
     font-family: Voltaire, sans-serif;
@@ -37,8 +40,11 @@ header a{
 header nav{
     font-family: Sintony, sans-serif;
     word-spacing: 5px;
+    font-size: 20px;
     margin-top: 5px;
     padding-top: 5px;
+    text-align: left;
+    
 }
 
 header nav a:hover{
@@ -72,6 +78,7 @@ img {
 figure {
     font-family: Roboto Slab, serif;
     font-size: 12px;
+    padding: 10px 0 10px 0;
 }
 
 caption {
@@ -118,10 +125,14 @@ footer a:hover{
     header{ 
     padding: 15px 5% 2% 5%%;
     text-align: left;
-    }
+}
+    header img{
+    float:none;
+}
 
     header nav{
     padding-top: 0px;
+    font-size: 40px;
 }   
     img {
     width: 80%;
