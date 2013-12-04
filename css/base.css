@@ -103,8 +103,8 @@ article a{
 }
 
 figure{
-    float: left;
-    margin: 2% 1% 5% 0;
+    float: right;
+    padding: 1% 0px 1% 0px;
 }
 
 img{
@@ -182,7 +182,7 @@ footer a:hover{
         padding-left: 2%;
 }
     img {
-        width:50%;
+        width:60%;
     }
 }
     
